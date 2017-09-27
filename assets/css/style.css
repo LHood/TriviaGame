@@ -1,0 +1,161 @@
+html, body {
+    background-color: #FFF2F2;
+    font-family: 'Righteous', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainContent {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFDBDA;
+    color: #8E3D69;
+}
+
+#logoBanner {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #fbbbb9;
+    color: #FFF2F2;
+}
+
+#bannerImg {
+    position: relative;
+    max-height: 100%;
+    top: 0px;
+    padding-left: 10px;
+}
+
+.bannerTextWrapper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    line-height: 200px;
+}
+
+.bannerText {
+    margin: 0px;
+    font-size: 8em;
+}
+
+#timerSection {
+    width: 100%;
+    height: 200px;
+}
+
+.loader{
+    position: relative;
+    top: 70px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    user-select: none;
+    box-sizing: border-box;
+    transform: translateX(-50%) scale(3);
+}
+.loader-bg
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+}
+.spiner-holder-one
+{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    box-sizing: border-box;
+}
+.spiner-holder-two
+{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-sizing: border-box;
+}
+.loader-spiner
+{
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+}  
+  .animate-0-25-a
+{
+    transform: rotate(90deg);
+    transform-origin: 100% 100%;
+}
+.animate-0-25-b
+{
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+}
+.animate-25-50-a
+{
+    transform: rotate(180deg);
+    transform-origin: 100% 100%;
+}
+.animate-25-50-b
+{
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+}
+.animate-50-75-a
+{
+    transform: rotate(270deg);
+    transform-origin: 100% 100%;
+}
+.animate-50-75-b
+{
+    transform: rotate(-90deg);
+    transform-origin:100% 100%;
+}
+.animate-75-100-a
+{
+    transform: rotate(0deg);
+    transform-origin: 100% 100%;
+}
+.animate-75-100-b
+{
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+}
+.text
+{
+    text-align: center;
+    padding-top:32%;
+    font-size: 12px;     
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#QAsection {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    background-color: #AF4E4B;
+}
+
+footer p {
+    float: right;
+    margin: 0px 30px 0px 0px;
+}

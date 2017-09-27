@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pink Trivia | A trivia game for the web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Aaron Michael McNulty">
+    <meta name="description" content="A trivia game for mobile and desktop browsers.">
+    <link rel="shortcut icon" href="assets/images/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="introScreen"></div>
+    <div id="gameScreen">
+        <div id="mainContent">
+            <div id="logoBanner">
+                <div class="bannerTextWrapper">
+                    <p id="bannerleft" class="bannerText">Pink</p>
+                </div>
+                <img id="bannerImg" src="assets/images/logo/ptlogo.png" alt="PT Logo">
+                <div class="bannerTextWrapper">
+                    <p id="bannerRight" class="bannerText">Trivia</p>
+                </div>
+            </div>
+            <div id="timerSection">
+                <div class="loader">
+                    <div class="loader-bg">
+                        <div class="text"></div>
+                    </div>        
+                    <div class="spiner-holder-one animate-0-25-a">
+                        <div class="spiner-holder-two animate-0-25-b">
+                            <div class="loader-spiner"></div>
+                        </div>
+                    </div>
+                    <div class="spiner-holder-one animate-25-50-a">
+                        <div class="spiner-holder-two animate-25-50-b">
+                            <div class="loader-spiner"></div>
+                        </div>
+                    </div>
+                    <div class="spiner-holder-one animate-50-75-a">
+                        <div class="spiner-holder-two animate-50-75-b">
+                            <div class="loader-spiner"></div>
+                        </div>
+                    </div>
+                    <div class="spiner-holder-one animate-75-100-a">
+                        <div class="spiner-holder-two animate-75-100-b">
+                            <div class="loader-spiner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="QAsection">
+
+            </div>
+        </div>
+        <footer>
+            <p>&copy; Pink Trivia &amp; Monkey Stomp Games 2017</p>
+        </footer>
+    </div>
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
+</body>
+</html>

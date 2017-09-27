@@ -14,7 +14,7 @@ html, body {
 
 #logoBanner {
     width: 100%;
-    height: 200px;
+    height: 120px;
     text-align: center;
     margin-top: 10px;
     background-color: #fbbbb9;
@@ -32,7 +32,7 @@ html, body {
     display: inline-block;
     height: 100%;
     vertical-align: top;
-    line-height: 200px;
+    line-height: 120px;
 }
 
 .bannerText {
@@ -47,24 +47,24 @@ html, body {
 
 .loader{
     position: relative;
-    top: 70px;
+    top: 10px;
     left: 50%;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     user-select: none;
     box-sizing: border-box;
-    transform: translateX(-50%) scale(3);
+    transform: translateX(-50%);
 }
-.loader-bg
-{
+
+.loader-bg {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.1);
+    border: 10px solid #ffffff;
     box-sizing: border-box;
 }
-.spiner-holder-one
-{
+
+.spiner-holder-one {
     position: absolute;
     top:0;
     left:0;
@@ -74,8 +74,8 @@ html, body {
     background: transparent;
     box-sizing: border-box;
 }
-.spiner-holder-two
-{
+
+.spiner-holder-two {
     position: absolute;
     top:0;
     left:0;
@@ -85,60 +85,61 @@ html, body {
     background: transparent;
     box-sizing: border-box;
 }
-.loader-spiner
-{
+
+.loader-spiner {
     width: 200%;
     height: 200%;
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.3);
+    border: 10px solid #92C695;
+    opacity: 1;
     box-sizing: border-box;
-}  
-  .animate-0-25-a
-{
+}
+
+.animate-0-25-a {
     transform: rotate(90deg);
     transform-origin: 100% 100%;
 }
-.animate-0-25-b
-{
+
+.animate-0-25-b {
     transform: rotate(-90deg);
     transform-origin: 100% 100%;
 }
-.animate-25-50-a
-{
+
+.animate-25-50-a {
     transform: rotate(180deg);
     transform-origin: 100% 100%;
 }
-.animate-25-50-b
-{
+
+.animate-25-50-b {
     transform: rotate(-90deg);
     transform-origin: 100% 100%;
 }
-.animate-50-75-a
-{
+
+.animate-50-75-a {
     transform: rotate(270deg);
     transform-origin: 100% 100%;
 }
-.animate-50-75-b
-{
+
+.animate-50-75-b {
     transform: rotate(-90deg);
     transform-origin:100% 100%;
 }
-.animate-75-100-a
-{
+
+.animate-75-100-a {
     transform: rotate(0deg);
     transform-origin: 100% 100%;
 }
-.animate-75-100-b
-{
+
+.animate-75-100-b {
     transform: rotate(-90deg);
     transform-origin: 100% 100%;
 }
-.text
-{
+
+.text {
     text-align: center;
     padding-top:32%;
-    font-size: 12px;     
-    color: rgba(255, 255, 255, 0.3);
+    font-size: 24px;     
+    color: #92C695;
 }
 
 #QAsection {

@@ -29,6 +29,7 @@ html, body {
     height: 100vh;
     background-color: rgba(251, 187, 185, 1);
     z-index: 2;
+    will-change: background-color;
     animation: 1s 4s linear fadeOut forwards;
 }
 
@@ -51,6 +52,7 @@ html, body {
     width: 80%;
     left: 50%;
     top: 50%;
+    will-change: transform;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

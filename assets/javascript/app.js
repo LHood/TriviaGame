@@ -184,7 +184,6 @@ function load() {
                 for (var i = 0; i < 4; i++) {
                     if (i === game.correctAnswerIndex) {
                         game.answers[i].innerHTML = game.questionSet[game.questionIndex].correct_answer;
-                        console.log(game.questionSet[game.questionIndex].correct_answer);
                     }
                     else {
                         game.answers[i].innerHTML = game.questionSet[game.questionIndex].incorrect_answers[incorrectAnswerIndex++];

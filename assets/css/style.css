@@ -41,8 +41,13 @@ html, body {
 }
 
 #timerSection {
+    position: relative;
     width: 100%;
-    height: 200px;
+    height: 120px;
+}
+
+#timer {
+    visibility: hidden;
 }
 
 .loader{
@@ -142,10 +147,87 @@ html, body {
     color: #92C695;
 }
 
-#QAsection {
+#category {
+    position: absolute;
+    font-family: inherit;
+    font-size: 1.1em;
+    color: inherit;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startButton {
+    position: absolute;
+    font-family: inherit;
+    color: inherit;
+    font-size: 1.6em;
+    padding: 10px;
+    background-color: #FFF2F2;
+    cursor: pointer;
+    outline: none;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startButton:hover {
+    background-color: white;
+    color: #92C695;
+}
+
+#outputSection {
+    position: relative;
     width: 100%;
     height: 400px;
     margin-bottom: 40px;
+}
+
+.gameDisplay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#QAsection {
+    text-align: center;
+    display: none;
+}
+
+#alertSection {
+    display: none;
+    text-align: center;
+    font-size: 2em;
+}
+
+#resultsSection {
+    display: none;
+    text-align: center;
+}
+
+#resultsSection p {
+    font-size: 1.2em;
+}
+
+.answer {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 20px 0px 20px;
+    transition: box-shadow .3s ease;
+}
+
+.answer:hover {
+    box-shadow: inset 0px 0px 40px #fbbbb9;
+}
+
+.correct {
+    box-shadow: inset 0px 0px 50px #92C695 !important;
+}
+
+.incorrect {
+    box-shadow: inset 0px 0px 50px #AD668D !important;
 }
 
 footer {

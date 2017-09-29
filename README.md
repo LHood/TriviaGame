@@ -25,5 +25,5 @@ This game makes use of the Open Trivia Database API to generate questions and mu
 Saturday, September 30<sup>th</sup> 2017 9:00 AM
 
 ## Links
-* [Game Link](https://amcnulty.github.io/TrivaGame/ "A trivia game for mobile and desktop browsers!")
+* [Game Link](https://amcnulty.github.io/TriviaGame/ "A trivia game for mobile and desktop browsers!")
 * [Open Trivia Database API](https://opentdb.com/api_config.php "Open Trivia DB: Free to use, user-contributed trivia question database.")

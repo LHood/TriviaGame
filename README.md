@@ -21,9 +21,6 @@ This game makes use of the Open Trivia Database API to generate questions and mu
 6. Have the game keep track of the total correct answers and total incorrect answers.
 7. Allow user to start the game again without refreshing the browser.
 
-## Due date
-Saturday, September 30<sup>th</sup> 2017 9:00 AM
-
 ## Links
 * [Game Link](https://amcnulty.github.io/TriviaGame/ "A trivia game for mobile and desktop browsers!")
 * [Open Trivia Database API](https://opentdb.com/api_config.php "Open Trivia DB: Free to use, user-contributed trivia question database.")
